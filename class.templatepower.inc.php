@@ -399,6 +399,7 @@ class TemplatePowerParser
  *
  * @package gulliver.system
  */
+#[AllowDynamicProperties]
 class TemplatePower extends TemplatePowerParser
 {
     public $index = Array ();
